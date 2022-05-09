@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RakurakuDinner（料理レシピ投稿サイト）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <span class="header__logo-title">Uehara Yuka</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <h2>RakurakuDinner（料理レシピ投稿サイト）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <img src="../images/work/02/rakurakudinner_firstview.jpg" class="show-pc">
+            <img src="../images/work/02/rakurakudinner_firstview_sp.jpg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+            <p class="p-work-firstview__text-link"><a href="https://github.com/mattyo7126/rakurakudinner" target="_blank">https://github.com/mattyo7126/rakurakudinner</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <td>70時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <br>
+                  <td><a href="https://rakurakudinner-n.herokuapp.com" target="_blank">https://rakurakudinner-n.herokuapp.com</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <td>admin</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <td>2222</td>
+                </tr>
+              </table>
+              <br>
+              <p>
+                画像のリンク切れが起こっている可能性がございます。
+              </p>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <td>abcd@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <td>111aaa</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <div class="p-work-outline__text">
+              <p>
+                手軽な料理をシェアし、自分の料理のレパートリーを増やしたり確認したりできるアプリケーションを開発しました。
+                <br>
+                主な機能は、ユーザー登録機能、および料理レシピ投稿機能、検索機能です。
+              </p>
+              <p>
+                トップページにアクセスすると、投稿されたレシピ一覧が表示されています。それをクリックすると、材料、作り方などのレシピ詳細を閲覧することができます。
+              </p>
+              <p>
+                トップページ(一覧ページ）のヘッダーから新規登録を行い、ヘッダー画像右下のプラスボタンから投稿ボタンに遷移します。
+              </p>
+              <p>
+                投稿画面で写真を添付し、カテゴリ、目安時間、分量をプルダウンから選択します。タイトル、材料、作り方、時短・味付けポイント、応用編（任意）を記載してレシピを投稿できます。
+              </p>
+              <p>
+                ログインしている場合はトップページのヘッダーにニックネームが表示され、クリックするとマイページに遷移し、レシピのレパートリーを確認できます。
+              </p>
+              <p>
+                またレシピを検索する際は、ヘッダーのレシピ投稿ボタンを押し、複数条件から調べることができます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <div class="p-work-about__item-block">
+                <p>
+                  自分が料理アプリを使う際、調べただけで作らずに終わってしまい、決まりきったものを作っていることに気がつきました。
+                </p>
+                <p>
+                  課題を分析したところ、調理時間の明記がないこと、自分の料理のレパートリーを整理できていないことが原因であるとわかりました。
+                </p>
+                <p>
+                  これらの問題を解決するために、「仕事終わりでも手軽に作れる」をテーマにレシピ投稿・検索アプリを開発することにしました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <img src="../images/work/02/rakurakudinner_search.png">
+                </div>
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目がレシピ検索機能です。ransackというRuby gemを用い、レシピ名、カテゴリ、材料など複数の条件からレシピを検索できるようにしました。
+                  </p>
+                  <p>
+                    2つ目が、フロント部分です。 統一感があり見やすく、食欲が湧くような見た目を目指し、色やボタンなどの配置を考え作成しました。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <img src="../images/work/02/rakurakudinner_show.jpg">
+                </div>
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目が画像のプレビュー機能です。ユーザーが投稿しやすいようにしていく必要があると考えます。
+                  </p>
+                  <p>
+                    2つ目が、いいね機能のような作ったよボタンを作り、調理時間やコメントを投稿する機能です。ユーザー同士が交流でき、料理のアイディアを共有できると考えます。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <a href="01.html" style="background-image:url('../images/work/01/furima_firstview_pc.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <a href="02.html" style="background-image:url('../images/work/02/rakurakudinner_firstview.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <h3>RakurakuDinner（料理レシピ投稿サイト）</h3>
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer"><p>&copy; Yuka Uehara.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
